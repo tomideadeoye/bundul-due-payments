@@ -4,7 +4,9 @@ A React Native Expo application that displays a list of upcoming payments for a 
 
 ## Demo
 
-![App Demo](./assets/Screen%20Recording%202025-10-23%20at%2000.41.36.mp4)
+A demo video is available in the [assets](./assets/Screen%20Recording%202025-10-23%20at%2000.41.36.mp4) folder. Download the video file to view the app in action.
+
+Alternatively, you can run the app locally to see the full functionality.
 
 ## Features
 
