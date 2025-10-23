@@ -4,25 +4,55 @@ import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native
 const mockPayments = [
   {
     id: 1,
-    service: 'Netflix',
-    amount: 15.99,
-    dueDate: '2025-11-01',
-    paid: false,
+    service: "Netflix",
+    amount: 14.99,
+    dueDate: "2025-10-19",
+    paid: true,
   },
   {
     id: 2,
-    service: 'Spotify',
-    amount: 9.99,
-    dueDate: '2025-10-25',
-    paid: false,
+    service: "Apple One",
+    amount: 29.99,
+    dueDate: "2025-11-01",
   },
   {
     id: 3,
-    service: 'Amazon Prime',
-    amount: 14.99,
-    dueDate: '2025-10-30',
+    service: "Spotify",
+    amount: 9.99,
+    dueDate: "2025-10-18",
     paid: true,
   },
+  {
+    id: 4,
+    service: "Amazon Prime",
+    amount: 12.99,
+    dueDate: "2025-10-25",
+  },
+  {
+    id: 5,
+    service: "Disney+",
+    amount: 7.99,
+    dueDate: "2025-10-22",
+  },
+  {
+    id: 6,
+    service: "Hulu",
+    amount: 6.99,
+    dueDate: "2025-10-20",
+    paid: true,
+  },
+  {
+    id: 7,
+    service: "Microsoft 365",
+    amount: 99.99,
+    dueDate: "2025-11-15",
+  },
+  {
+    id: 8,
+    service: "Adobe Creative Suite",
+    amount: 52.99,
+    dueDate: "2025-10-23",
+  }
 ];
 
 export default function App() {
