@@ -4,29 +4,20 @@ A React Native Expo application that displays a list of upcoming payments for a 
 
 ## Demo
 
-A demo video is available in the [assets](./assets/Screen%20Recording%202025-10-23%20at%2000.41.36.mp4) folder. Download the video file to view the app in action.
+https://github.com/user-attachments/assets/609a3f79-7451-4d1f-b346-ff582ce28229
 
-Alternatively, you can run the app locally to see the full functionality.
 
 ## Features
 
-- Display of payment items from mock data
-- Each payment shows service name, amount, due date, and "Pay Now" button
-- "Due Soon" badge for payments due within 3 days with animated pulse effect
-- List sorted by due date (soonest first)
-- Tapping "Pay Now" opens a payment confirmation modal
-- Pull-to-refresh functionality
-- Highlighted rows for items due within 3 days
-- Total due amount displayed at the top
-- Search functionality to filter subscriptions
-- Filter options: All, Due Soon, Paid (in Payments tab)
-- Payment history tracking with persistent storage
-- Real-time updates across tabs when payments are made
-- Insights dashboard with payment visualization chart
-- Modern dark theme fintech UI design with gradient accents
-- Smooth card entry animations
-- Consistent design system with typography, spacing, and color scales
-- Responsive design optimized for mobile and tablet
+Display payment items from mock data with service name, amount, due date, and "Pay Now" button
+"Due Soon" badge for payments within 3 days, with pulse effect
+List sorted by due date, with highlighted rows for soon payments
+Tapping "Pay Now" opens confirmation modal
+Pull-to-refresh and search functionality available
+Filter options: All, Due Soon, Paid (in Payments tab)
+Track payment history with persistent storage and real-time updates across tabs
+Insights dashboard with payment visualization chart
+Modern dark theme fintech UI design, with animations and a responsive layout
 
 ## Prerequisites
 
@@ -125,7 +116,3 @@ bundul-due-payments/
 - **react-native-chart-kit** - Chart visualization
 - **expo-linear-gradient** - Gradient UI elements
 - **date-fns** - Date utility library
-
-## Submission
-
-This project was created for the Bundul Frontend Engineer Assessment to demonstrate React Native best practices and clean UI implementation.
