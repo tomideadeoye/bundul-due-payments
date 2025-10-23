@@ -116,3 +116,40 @@ bundul-due-payments/
 - **react-native-chart-kit** - Chart visualization
 - **expo-linear-gradient** - Gradient UI elements
 - **date-fns** - Date utility library
+
+## Bundle Analysis
+
+This project includes bundle analysis capabilities using Expo Atlas to help monitor and optimize the JavaScript bundle size.
+
+### Analyzing Production Bundles
+
+To analyze the production bundle:
+
+```bash
+npm run analyze
+```
+
+This command will:
+1. Export the app for all platforms with source maps
+2. Generate bundle analysis data
+3. Start the Expo Atlas server at http://localhost:3000
+
+### Development Bundle Analysis
+
+To analyze bundles during development:
+
+```bash
+npm run analyze:dev
+```
+
+This starts the development server with Atlas enabled. You can then access the analysis through the Expo DevTools.
+
+### Interpreting Results
+
+The bundle analyzer will show:
+- Bundle sizes for each platform (Android, iOS, Web)
+- Dependency breakdown and contribution to bundle size
+- Module transformation details
+- Import/export relationships
+
+Use this information to identify optimization opportunities and keep bundle sizes manageable for better app performance.
