@@ -4,7 +4,9 @@ A React Native Expo application that displays a list of upcoming payments for a 
 
 ## Demo
 
-![App Demo](./assets/Screen%20Recording%202025-10-23%20at%2000.41.36.mp4)
+https://github.com/user-attachments/assets/45f00932-8d47-4b4c-908f-bdd11241b912
+
+
 
 ## Features
 
