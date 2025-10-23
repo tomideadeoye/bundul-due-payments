@@ -10,23 +10,15 @@ https://github.com/user-attachments/assets/45f00932-8d47-4b4c-908f-bdd11241b912
 
 ## Features
 
-- Display of payment items from mock data
-- Each payment shows service name, amount, due date, and "Pay Now" button
-- "Due Soon" badge for payments due within 3 days with animated pulse effect
-- List sorted by due date (soonest first)
-- Tapping "Pay Now" opens a payment confirmation modal
-- Pull-to-refresh functionality
-- Highlighted rows for items due within 3 days
-- Total due amount displayed at the top
-- Search functionality to filter subscriptions
-- Filter options: All, Due Soon, Paid (in Payments tab)
-- Payment history tracking with persistent storage
-- Real-time updates across tabs when payments are made
-- Insights dashboard with payment visualization chart
-- Modern dark theme fintech UI design with gradient accents
-- Smooth card entry animations
-- Consistent design system with typography, spacing, and color scales
-- Responsive design optimized for mobile and tablet
+Display payment items from mock data with service name, amount, due date, and "Pay Now" button
+"Due Soon" badge for payments within 3 days, with pulse effect
+List sorted by due date, with highlighted rows for soon payments
+Tapping "Pay Now" opens confirmation modal
+Pull-to-refresh and search functionality available
+Filter options: All, Due Soon, Paid (in Payments tab)
+Track payment history with persistent storage and real-time updates across tabs
+Insights dashboard with payment visualization chart
+Modern dark theme fintech UI design, with animations and a responsive layout
 
 ## Prerequisites
 
