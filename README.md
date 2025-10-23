@@ -123,7 +123,3 @@ bundul-due-payments/
 - **react-native-chart-kit** - Chart visualization
 - **expo-linear-gradient** - Gradient UI elements
 - **date-fns** - Date utility library
-
-## Submission
-
-This project was created for the Bundul Frontend Engineer Assessment to demonstrate React Native best practices and clean UI implementation.
